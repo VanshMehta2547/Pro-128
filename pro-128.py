@@ -14,7 +14,7 @@ def scrape():
         
         star_table = soup.find_all('table') 
         temp_list= [] 
-        table_rows = star_table.find_all('tr') 
+        table_rows = star_table.find_all[7]('tr') 
         for tr in table_rows: 
             td = tr.find_all('td') 
         row = [i.text.rstrip() for i in td] 
